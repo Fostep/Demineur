@@ -151,7 +151,7 @@ Afficher(afficherDem, chiffresJoueur)
 # Place les bombes
 bombeAleatoire(demineur, chiffresJoueur) 
 #Afficher(demineur, chiffresJoueur) #Affiche la matrice des infos
-Afficher(demineur, chiffresJoueur)
+
 while(jouer == True and nbrVictoire != 0):
   # Demande au joueur ce qu'il veut faire
   print("Que souhaitez vous faire ?\n - Reveler une case : 1\n - Poser un drapeau : 2\n")
